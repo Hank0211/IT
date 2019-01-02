@@ -4,7 +4,7 @@ import threading
 import time
 import sys
 import re
-
+#使用了线程，不过我感觉使用线程不太安全，在运行时如果终端输入Ctrl+c这个程序会一直运行下去
 
 def cur_speed(ethx):
     global timer
