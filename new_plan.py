@@ -3,6 +3,7 @@ import subprocess
 import json
 import sys
 import re
+#程序只能用于子网掩码是24位，并且网段不能超过15个的网络结构
 #根句柄：（100：）
 #默认分类：（100:ffff）
 #根分类：（100：1）
